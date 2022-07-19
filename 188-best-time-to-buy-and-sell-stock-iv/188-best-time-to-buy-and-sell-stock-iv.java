@@ -1,17 +1,43 @@
 class Solution {
-    public int maxProfit(int k, int[] prices) {
-        int n = prices.length;
-        int t[][][] = new int[n+1][2][k+1];
+    public int maxProfit(int maxT, int[] arr) {
+        int n = arr.length;
+        int t[][][] = new int[n+1][2][maxT+1];
         
         for(int ar[][] :t){
             for(int a[] : ar){
                 Arrays.fill(a, -1);
             }
         }
+       
+        // return solve(prices, 0,1,k,t);
+        return solve2(0,2*maxT,arr);
         
-        
-        return solve(prices, 0,1,k,t);
     }
+    
+    public int solve2(int in, int tranId, int arr[]){
+        // if(i == arr.length) return 0;
+        // if(tranId < 0) return 0;
+        // if(tranId % 2 == 0){
+        //     return Math.max(-arr[i] + solve2(i+1,tranId-1, arr), solve2(i+1,tranId,arr));
+        // }
+        // else return Math.max(arr[i]+solve2(i+1,tranId-1,arr), solve2(i+1,tranId,arr));
+        
+// .........................................TABULATION...........................................
+        
+        int t[][] = new int[arr.length+1][tranId+1];
+        
+        for(int i=arr.length-1;i>=0;i--){
+            for(int id=1;id<=tranId;id++){
+                if(id % 2 == 0) 
+                    t[i][id] = Math.max(-arr[i]+t[i+1][id-1], t[i+1][id]);
+                else 
+                    t[i][id] = Math.max(arr[i]+t[i+1][id-1], t[i+1][id]);
+            }
+        }
+        return t[0][tranId];
+        
+    }
+    
     public int solve(int arr[], int i, int buy, int k, int t[][][]){
         
         if(i == arr.length) return 0;
