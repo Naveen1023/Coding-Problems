@@ -24,6 +24,8 @@ class Solution {
         // }
         // return t[0][1];
         
+        
+ // ..................................SPACE OPTIMIZED................................       
         int curr[] = new int[2];
         int after[] = new int[2];
         
