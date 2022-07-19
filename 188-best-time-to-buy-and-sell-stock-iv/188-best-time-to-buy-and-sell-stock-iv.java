@@ -1,6 +1,7 @@
 class Solution {
     public int maxProfit(int maxT, int[] arr) {
         int n = arr.length;
+        maxT = Math.min(maxT, n);  ///// important
         int t[][][] = new int[n+1][2][maxT+1];
         
         for(int ar[][] :t){
@@ -24,18 +25,32 @@ class Solution {
         
 // .........................................TABULATION...........................................
         
-        int t[][] = new int[arr.length+1][tranId+1];
+//         int t[][] = new int[arr.length+1][tranId+1];
+        
+//         for(int i=arr.length-1;i>=0;i--){
+//             for(int id=1;id<=tranId;id++){
+//                 if(id % 2 == 0) 
+//                     t[i][id] = Math.max(-arr[i]+t[i+1][id-1], t[i+1][id]);
+//                 else 
+//                     t[i][id] = Math.max(arr[i]+t[i+1][id-1], t[i+1][id]);
+//             }
+//         }
+//         return t[0][tranId];
+        
+        
+        int after[] = new int[tranId+1];
+        int curr[]  = new int[tranId+1];
         
         for(int i=arr.length-1;i>=0;i--){
             for(int id=1;id<=tranId;id++){
                 if(id % 2 == 0) 
-                    t[i][id] = Math.max(-arr[i]+t[i+1][id-1], t[i+1][id]);
-                else 
-                    t[i][id] = Math.max(arr[i]+t[i+1][id-1], t[i+1][id]);
+                    curr[id] = Math.max(-arr[i]+after[id-1], after[id]);
+                 else 
+                    curr[id] = Math.max(arr[i]+after[id-1], after[id]);
             }
+            after = curr;
         }
-        return t[0][tranId];
-        
+        return after[tranId];
     }
     
     public int solve(int arr[], int i, int buy, int k, int t[][][]){
