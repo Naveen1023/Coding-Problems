@@ -1,30 +1,25 @@
 class Solution {
     static int res = 0;
     public int lengthOfLIS(int[] arr) {
+          
+        int t[][] = new int[arr.length+1][arr.length+1];
+        // for(int a[] : t)
+        //     Arrays.fill(a, -1);
+        // return solve(0,-1,arr,t);
         
-        // int res = 1;
-        // int t[] = new int[arr.length];
-//         Arrays.fill(t,1);
-//         t[0] = 1;
         
-//         for(int i=0;i<arr.length;i++){
-            
-//             for(int j=0;j<i;j++){
-                
-//                 if(arr[j] < arr[i]){
-//                     t[i] = Math.max(t[i], t[j] + 1);
-//                     res = Math.max(res, t[i]);
-//                 }
-                
-//             }
-//         }
-        // return res;   
+        // ...........................TABULATION........................................
         
-        int t[][] = new int[arr.length+1][arr.length+2];
-        for(int a[] : t)
-            Arrays.fill(a, -1);
-        return solve(0,-1,arr,t);
-        
+        for(int i=arr.length-1;i>=0;i--){
+            for(int prev = i-1;prev>=-1;prev--){
+                if(prev == -1 || arr[i] > arr[prev]){
+                    t[i][prev+1] = Math.max(1 + t[i+1][i+1], t[i+1][prev+1]);
+                }
+                else 
+                    t[i][prev+1] = t[i+1][prev+1];
+            }
+        }
+        return t[0][0];
     }
     	
 	public static int solve(int i, int prev,int arr[], int t[][]){
