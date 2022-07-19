@@ -11,18 +11,33 @@ class Solution {
     
     public int solveTabulation(int fee ,int arr[]){
         
-        int t[][] = new int[arr.length+1][2];
+        // int t[][] = new int[arr.length+1][2];
+        
+        // for(int i=arr.length-1;i>=0;i--){
+        //     for(int buy=0;buy<2;buy++){
+        //         if(buy > 0){
+        //             t[i][buy] = Math.max(-arr[i] + t[i+1][0], t[i+1][1]);
+        //         }       
+        //         else
+        //             t[i][buy] = Math.max(arr[i] - fee + t[i+1][1], t[i+1][0]);
+        //     }
+        // }
+        // return t[0][1];
+        
+        int curr[] = new int[2];
+        int after[] = new int[2];
         
         for(int i=arr.length-1;i>=0;i--){
             for(int buy=0;buy<2;buy++){
                 if(buy > 0){
-                    t[i][buy] = Math.max(-arr[i] + t[i+1][0], t[i+1][1]);
+                    curr[buy] = Math.max(-arr[i] + after[0], after[1]);
                 }       
                 else
-                    t[i][buy] = Math.max(arr[i] - fee + t[i+1][1], t[i+1][0]);
+                    curr[buy] = Math.max(arr[i] - fee + after[1], after[0]);
             }
+            after = curr;
         }
-        return t[0][1];
+        return after[1];
     }    
     
     public int solve(int arr[], int i, int buy, int fee, int t[][]){
