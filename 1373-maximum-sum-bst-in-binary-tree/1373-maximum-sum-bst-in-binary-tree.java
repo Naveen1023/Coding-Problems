@@ -32,18 +32,18 @@ class Solution {
     int res;
     public int maxSumBST(TreeNode root) {
         res = 0;
-        solve(root, false)        ;
+        solve(root)        ;
         return res;
     }
     
-    public data solve(TreeNode node, boolean left){
+    public data solve(TreeNode node){
         
         if(node == null){
             return new data(0,true,Integer.MIN_VALUE,Integer.MAX_VALUE);
         }
         
-        data l = solve(node.left,true);
-        data r = solve(node.right, false);
+        data l = solve(node.left);
+        data r = solve(node.right);
                 
         data temp = new data();
         
