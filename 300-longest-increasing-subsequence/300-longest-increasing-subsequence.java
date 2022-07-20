@@ -39,11 +39,12 @@ class Solution {
         // ............................Print LIS.................................../
         // printLIS(arr);
         
-        return res;
+        // return res;
         
         
         // ............................OPTIMAL (binary Search).................................
-        
+        // since the seq will be in increasing order, we can simulate similar thiing and apply binary search....NOTE that this is jsut for find out length. We can not get exact LIS through this method....
+        return solveBinarySearch(arr);
         
         
     }
@@ -86,6 +87,37 @@ class Solution {
         Collections.reverse(list);
         System.out.println(list);
         
+    }
+    
+    public int solveBinarySearch(int arr[]){
+        List<Integer> list = new ArrayList<>();
+          for(int i=0;i<arr.length;i++){
+              if(list.isEmpty()) list.add(arr[i]);
+              else{
+                  int index = lower_bound(list, arr[i]);
+                  if(index == -1) list.add(arr[i]);
+                  else list.set(index,arr[i]);
+              }
+          }
+        return list.size();
+    }
+    // this will give index of target if exists, otherwise index of element just greater than target
+    public int lower_bound(List<Integer> list, int target){
+      
+        int l = 0;
+        int r = list.size()-1;
+        int ans = -1;
+        while(l <= r){
+            int mid = l + (r-l)/2;
+            if(list.get(mid) < target){
+                l = mid+1;
+            }
+            else {
+                ans = mid;
+                r = mid-1;
+            }
+        }        
+        return ans;
     }
     
 }
