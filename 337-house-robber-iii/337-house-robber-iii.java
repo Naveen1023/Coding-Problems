@@ -14,25 +14,25 @@
  * }
  */
 class Solution {
-    HashMap<TreeNode, HashMap<Integer, Integer>> map;
+    HashMap<TreeNode,Integer> map;
     public int rob(TreeNode root) {
         map = new HashMap<>();
-        return solve(root ,1);
+        return solve(root);
     }
     
-    public int solve(TreeNode node, int pick){
+    public int solve(TreeNode node){
         if(node == null) return 0;
-        int ans = 0;
-        if(map.containsKey(node) && map.get(node).containsKey(pick)) return map.get(node).get(pick);
-        if(pick == 1){
-            ans = Math.max(node.val + solve(node.left, 0) + solve(node.right, 0) , 
-                          solve(node.left, 1) + solve(node.right,1));
-        }
-        else {
-            ans = solve(node.left, 1) + solve(node.right, 1);
-        }
-        map.put(node, new HashMap<>());
-        map.get(node).put(pick, ans);
-        return ans;
+        int pick = node.val;
+        
+        if(map.containsKey(node)) return map.get(node);
+        
+        if(node.left != null) pick += solve(node.left.left) + solve(node.left.right);
+        if(node.right != null) pick += solve(node.right.left) + solve(node.right.right);
+        
+        int notPick = solve(node.left) + solve(node.right);
+        
+        int res =  Math.max(pick , notPick);
+        map.put(node, res);
+        return res;
     }
 }
