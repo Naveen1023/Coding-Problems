@@ -41,13 +41,10 @@ class LRUCache {
         else{ // we need to insert new node, and update it;s priority...
             Node node = new Node(key, value);
             map.put(key, node);
-            if (map.size() <= cap) {
-                // count++;
-                addToHead(node);
-            } else {
+            addToHead(node);
+            if(map.size() > cap){
                 map.remove(tail.prev.key);
                 deleteNode(tail.prev);
-                addToHead(node);
             }
         }
     }
