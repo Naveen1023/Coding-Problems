@@ -5,10 +5,10 @@ class Solution {
         int i =0;
         int j = 0;
         int res = 0;
-        
+        // number of Zeros in each window should be lesser or equals to K...
         while(j < arr.length){
             
-            if(arr[j] == 0) count++;
+            if(arr[j] == 0) count++; 
             
             while(i <= j && count > k){
                if(arr[i] == 0) count--;
