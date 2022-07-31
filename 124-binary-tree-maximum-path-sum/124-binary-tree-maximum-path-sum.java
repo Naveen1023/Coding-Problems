@@ -21,25 +21,19 @@ class Solution {
         return res;
     }
     public int solve(TreeNode node){
-        
         if(node == null) return 0;
         
-        int left = Math.max(0,solve(node.left));
-        int right = Math.max(0,solve(node.right));
+        int l = solve(node.left);
+        int r = solve(node.right);
         
-        // if(node.left != null) path2 += left;
-        // if(node.right != null) path2 += right;
+        int maxi = Math.max(l,r);
+        int path1 = node.val;
+        int path2 = node.val + maxi;
+        int path3 = node.val + l + r;
         
-        res = Math.max(res, node.val+left+right);
+        res = Math.max(res, Math.max(path1, Math.max(path2,path3)));
         
-        //if(left<0)left=0;
-        //if(right<0) right=0;
-        return node.val+Math.max(left,right);
+        return Math.max(node.val, path2);
     }
+    
 }
-
-
-
-
-
-
