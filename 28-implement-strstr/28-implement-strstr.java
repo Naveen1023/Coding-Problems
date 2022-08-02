@@ -23,9 +23,8 @@ class Solution {
         
         /*
         1. compute the LPS array... Longest Prefix Suffix. This will help up to reiterate over the already matched string...
-        
-        
-        
+        2. Iterate over haystack, keep incrementing if both matches, otherwise..go to previous lps i.e. lps[j-1]...if at some point j becomes 0 then increment i. 
+        3. As soon as j exceeds the length of needle then store i-len(needle) index as answer...
         
         */
         int lps[] = computeLPS(needle);
