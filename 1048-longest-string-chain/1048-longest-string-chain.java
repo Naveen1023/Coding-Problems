@@ -1,66 +1,42 @@
 class Solution {
     public int longestStrChain(String[] arr) {
-     
-        int t[] = new int[arr.length];
+        Arrays.sort(arr, (s1,s2)->s1.length()-s2.length());
+        int currLength[] = new int[arr.length];
+        Arrays.fill(currLength, 1);
+        // "a","b","ba","bca","bda","bdca" 
         int res = 1;
-        Arrays.fill(t, 1);
-        Arrays.sort(arr, (s1,s2)->s1.length() - s2.length());
-        
+        //check for every word, 
         for(int i=0;i<arr.length;i++){
-            
-            for(int j=0;j<i;j++){
-                //  only check is len is 1 less than curr length...
+            int len = 0;
+            for(int j=0;j<i;j++){ 
                 if(arr[j].length() == arr[i].length()-1){
-                    
-                    if(isPredecessor(arr[j], arr[i]) == true){
-                        t[i] = Math.max(t[i], t[j] + 1);
-                        res = Math.max(res, t[i]);
+                    if(isPredecessor(arr[j],arr[i])){
+                        currLength[i] = Math.max(currLength[i], currLength[j]+1);
+                        res = Math.max(res, currLength[i]);
                     }
-                    
                 }
             }
+            
+            
         }
-        
         return res;
     }
     
-    public boolean isPredecessor(String s1, String s2){
-
-           if(s2.length() - s1.length() != 1) return false;
-        
-           int i = s1.length()-1, j = s2.length()-1;
+    public boolean isPredecessor(String a, String b){
+        int i=0;
+        int j =0;
         boolean skipped = false;
-        while(i >= 0 && j >= 0){
-            if(s1.charAt(i) == s2.charAt(j)){
-                i--;j--;                    
+        while(i < a.length() && j < b.length()){
+            if(a.charAt(i) == b.charAt(j)){
+                i++;
+                j++;
             }
-            else if(!skipped){
-                skipped = true;
-                j--;
+            else{
+                if(skipped) return false;
+                j++;skipped = true;
             }
-            else return false;
         }
         return true;
-//         int i,j;
-//         i = j = 0;
-//         while(i < s1.length() && j < s2.length()){
-            
-//             if(s1.charAt(i) == s2.charAt(j)){
-//                 i++;j++;
-//             }
-//             else{
-//                 j++;
-//             }
-//         }
-//           // abc    kkbc
-//         return !(i < s1.length());
-        
-    }    
-
+    }
+    
 }
-
-
-
-
-
-
