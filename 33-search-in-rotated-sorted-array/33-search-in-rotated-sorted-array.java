@@ -2,7 +2,7 @@ class Solution {
     public int search(int[] arr, int target) {
         if(arr.length == 1) return (arr[0] == target) ? 0 : -1;
         int lastIndex = findLastIndex(arr);
-        System.out.println(lastIndex);
+        // System.out.println(lastIndex);
         
         int a = findElement(arr,target,0,lastIndex);
         if(a != -1) return a;
