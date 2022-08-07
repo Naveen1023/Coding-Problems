@@ -15,5 +15,6 @@
 end as bonus
  from employees order by employee_id;
  
+ # ORDER BY sort the data in ascending order by defaut,, otherwise mention DESC
  
  
