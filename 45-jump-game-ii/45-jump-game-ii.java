@@ -1,8 +1,21 @@
 class Solution {
     Integer t[];
-    public int jump(int[] nums) {
-        t = new Integer[nums.length];
-        return solve(0,nums);
+    public int jump(int[] arr) {
+        t = new Integer[arr.length];
+        // return solve(0,arr);
+        
+        t[arr.length-1] = 0;
+        
+        for(int i=arr.length-2;i>=0;i--){
+            int ans = 1000000;
+            int len = arr[i];
+            for(int jump=1;jump<=len;jump++){
+                if((i + jump) < arr.length)
+                    ans = Math.min(ans , 1+t[i+jump]);
+            }
+            t[i] = ans;
+        }
+        return t[0];
     }
     public int solve(int i, int arr[]){
         
