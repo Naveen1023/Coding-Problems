@@ -1,21 +1,43 @@
 class Solution {
     Integer t[];
     public int jump(int[] arr) {
-        t = new Integer[arr.length];
-        // return solve(0,arr);
+//         t = new Integer[arr.length];
+//         // return solve(0,arr);
         
-        t[arr.length-1] = 0;
+//         t[arr.length-1] = 0;
         
-        for(int i=arr.length-2;i>=0;i--){
-            int ans = 1000000;
-            int len = arr[i];
-            for(int jump=1;jump<=len;jump++){
-                if((i + jump) < arr.length)
-                    ans = Math.min(ans , 1+t[i+jump]);
+//         for(int i=arr.length-2;i>=0;i--){
+//             int ans = 1000000;
+//             int len = arr[i];
+//             for(int jump=1;jump<=len;jump++){
+//                 if((i + jump) < arr.length)
+//                     ans = Math.min(ans , 1+t[i+jump]);
+//             }
+//             t[i] = ans;
+//         }
+//         return t[0];
+        
+        
+        
+        
+        // ................Optimal BFS Solution..............................
+        
+        int l = 0,r=0;
+        int steps = 0;
+        while(r < arr.length-1){
+            int farthest = 0;
+            for(int i=l;i<=r;i++){
+                farthest = Math.max(farthest, i+arr[i]);
             }
-            t[i] = ans;
+            // go to next level now
+            l = r+1;
+            r = farthest;
+            steps++;
         }
-        return t[0];
+        return steps;
+        
+        
+        
     }
     public int solve(int i, int arr[]){
         
