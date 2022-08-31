@@ -30,30 +30,30 @@ class Solution {
     
     public int isValid(int target, int arr[]){
         
-        int total = 0;
-        int count = 1;
-        for(int w : arr) {
-            total+=w;
-            if(total > target) {
-                count++;
-                total = w;
+        // int total = 0;
+        // int count = 1;
+        // for(int w : arr) {
+        //     total+=w;
+        //     if(total > target) {
+        //         count++;
+        //         total = w;
+        //     }
+        // }
+        // return count;
+        
+        int cnt = 1;
+        int currW = 0;
+        
+        for(int i=0;i<arr.length;i++){
+            if((currW + arr[i] ) <= target){
+                currW += arr[i];
+            }      
+            else{
+                currW = arr[i];
+                cnt++;
             }
-        }
-        return count;
-        
-//         int cnt = 1;
-//         int currW = 0;
-        
-//         for(int i=0;i<arr.length;i++){
-//             if((currW + arr[i] ) <= target){
-//                 currW += arr[i];
-//             }      
-//             else{
-//                 currW = arr[i];
-//                 cnt++;
-//             }
-//         }        
-//         return cnt;
+        }        
+        return cnt;
     }
     
 }
