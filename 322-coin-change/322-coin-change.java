@@ -1,7 +1,7 @@
 class Solution {
     Integer t[][] ;
     public int coinChange(int[] coins, int target) {
-        
+        // if(target == 0) return 0;
         t = new Integer[coins.length][target+1];
         int ans = solve(coins.length-1,coins, target) ;
         
