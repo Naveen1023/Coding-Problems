@@ -11,7 +11,7 @@ class Solution {
             arr[r] = temp;
             l++;r--;
         }
-    
+        
         int res = 0;
         
         for(int i=0;i<arr.length-2;i++){
