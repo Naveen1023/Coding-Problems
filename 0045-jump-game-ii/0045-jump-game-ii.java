@@ -30,8 +30,10 @@ class Solution {
 }
 
 /**
-- standing at ith index, maintain MaxReach. 
-- 
+- standing at ith index, you can jump till i+arr[i] 
+- from the block (i to i+arr[i]) => make a choice to jump with best option
+- the best option is the one which can reach the farthest.
+- number of best options chosen are #jumps required.
 {2,3,4,1,4,0}
 
 
