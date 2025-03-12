@@ -24,10 +24,12 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
+| [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 ## String
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
+| [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
 | ------- |
@@ -45,4 +47,12 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0053-maximum-subarray) |
+## Two Pointers
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
