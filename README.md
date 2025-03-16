@@ -10,6 +10,7 @@
 | [0055-jump-game](https://github.com/Naveen1023/Coding-Problems/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Naveen1023/Coding-Problems/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -73,4 +74,12 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
+## Backtracking
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
