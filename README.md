@@ -9,6 +9,7 @@
 | [0053-maximum-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Naveen1023/Coding-Problems/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Naveen1023/Coding-Problems/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -26,6 +27,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 ## String
 |  |
@@ -67,4 +69,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Naveen1023/Coding-Problems/tree/master/0070-climbing-stairs) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
