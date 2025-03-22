@@ -13,6 +13,7 @@
 | [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
+| [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
@@ -25,6 +26,7 @@
 | [0091-decode-ways](https://github.com/Naveen1023/Coding-Problems/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
+| [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
 ## Greedy
 |  |
 | ------- |
