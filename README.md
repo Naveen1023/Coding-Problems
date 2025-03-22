@@ -11,6 +11,7 @@
 | [0056-merge-intervals](https://github.com/Naveen1023/Coding-Problems/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
@@ -32,6 +33,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## String
@@ -96,4 +98,8 @@
 |  |
 | ------- |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
