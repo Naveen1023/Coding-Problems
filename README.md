@@ -23,6 +23,7 @@
 | [0070-climbing-stairs](https://github.com/Naveen1023/Coding-Problems/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/Naveen1023/Coding-Problems/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
+| [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 ## Greedy
 |  |
 | ------- |
@@ -42,6 +43,7 @@
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0091-decode-ways](https://github.com/Naveen1023/Coding-Problems/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
+| [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
@@ -86,6 +88,7 @@
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
