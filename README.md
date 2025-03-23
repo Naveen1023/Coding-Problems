@@ -39,6 +39,7 @@
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/Naveen1023/Coding-Problems/tree/master/0138-copy-list-with-random-pointer) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## String
@@ -109,4 +110,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
+## Linked List
+|  |
+| ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/Naveen1023/Coding-Problems/tree/master/0138-copy-list-with-random-pointer) |
 <!---LeetCode Topics End-->
