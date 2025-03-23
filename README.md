@@ -14,6 +14,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naveen1023/Coding-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
@@ -121,4 +122,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naveen1023/Coding-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
