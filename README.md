@@ -40,6 +40,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Naveen1023/Coding-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Naveen1023/Coding-Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Naveen1023/Coding-Problems/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## String
@@ -101,6 +102,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Counting
 |  |
@@ -114,4 +116,9 @@
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/Naveen1023/Coding-Problems/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
