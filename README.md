@@ -28,12 +28,14 @@
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
+| [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Greedy
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Naveen1023/Coding-Problems/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
+| [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -52,6 +54,7 @@
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
+| [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Sorting
 |  |
 | ------- |
@@ -126,4 +129,8 @@
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naveen1023/Coding-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+## Stack
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
