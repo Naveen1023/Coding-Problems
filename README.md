@@ -15,6 +15,7 @@
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naveen1023/Coding-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
@@ -60,6 +61,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Naveen1023/Coding-Problems/tree/master/0056-merge-intervals) |
+| [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
 ## Math
 |  |
 | ------- |
@@ -133,4 +135,8 @@
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
 <!---LeetCode Topics End-->
