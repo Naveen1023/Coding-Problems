@@ -15,6 +15,7 @@
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naveen1023/Coding-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0503-next-greater-element-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0503-next-greater-element-ii) |
 | [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
@@ -134,9 +135,14 @@
 ## Stack
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0503-next-greater-element-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
