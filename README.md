@@ -145,4 +145,20 @@
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0503-next-greater-element-ii) |
+## Tree
+|  |
+| ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
 <!---LeetCode Topics End-->
