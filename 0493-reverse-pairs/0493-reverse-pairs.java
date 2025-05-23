@@ -1,25 +1,21 @@
 class Solution {
     public int reversePairs(int[] arr) {
-        
-        int ans = mergeSort(0,arr.length-1,arr);
-        System.out.println(Arrays.toString(arr));
-        return ans;
+        return divideAndCalc(0, arr.length-1, arr);
     }
-    
-    public int mergeSort(int l, int r, int a[]){
-        
+
+    private int divideAndCalc(int l, int r, int a[]) {
         
         int mid = (l+r)/2;
         int res = 0;
         if(l < r){
-            res = res + mergeSort(l, mid,a);
-            res = res + mergeSort(mid+1,r,a);
-            res = res + merge(l,mid,r,a);
+            res = res + divideAndCalc(l, mid,a);
+            res = res + divideAndCalc(mid+1,r,a);
+            res = res + calcPairs(l,mid,r,a);
         }
         return res;
     }
-    
-    public int merge(int l, int m, int r, int a[]){
+
+    private int calcPairs(int l, int m, int r, int a[]) {
         int left[] = new int[(m-l+1)];
         int right[] = new int[(r-m)];
         int k = 0;
@@ -50,9 +46,5 @@ class Solution {
         
         return count;
     }
-    
+
 }
-
-
-
-
