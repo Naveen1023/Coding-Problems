@@ -82,6 +82,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0086-partition-list](https://github.com/Naveen1023/Coding-Problems/tree/master/0086-partition-list) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
 ## Sliding Window
 |  |
@@ -124,6 +125,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0086-partition-list](https://github.com/Naveen1023/Coding-Problems/tree/master/0086-partition-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/Naveen1023/Coding-Problems/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/Naveen1023/Coding-Problems/tree/master/0146-lru-cache) |
 ## Doubly-Linked List
