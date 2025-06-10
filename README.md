@@ -155,10 +155,12 @@
 ## Tree
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Naveen1023/Coding-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Naveen1023/Coding-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Binary Search Tree
 |  |
@@ -167,6 +169,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Naveen1023/Coding-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/Naveen1023/Coding-Problems/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Binary Indexed Tree
 |  |
@@ -184,4 +187,8 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Naveen1023/Coding-Problems/tree/master/0493-reverse-pairs) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Naveen1023/Coding-Problems/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
