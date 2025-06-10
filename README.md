@@ -31,6 +31,7 @@
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
+| [0583-delete-operation-for-two-strings](https://github.com/Naveen1023/Coding-Problems/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Greedy
 |  |
@@ -57,6 +58,7 @@
 | [0097-interleaving-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0567-permutation-in-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/Naveen1023/Coding-Problems/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Sorting
 |  |
