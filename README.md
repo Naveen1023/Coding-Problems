@@ -18,6 +18,7 @@
 | [0493-reverse-pairs](https://github.com/Naveen1023/Coding-Problems/tree/master/0493-reverse-pairs) |
 | [0503-next-greater-element-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0503-next-greater-element-ii) |
 | [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Naveen1023/Coding-Problems/tree/master/0646-maximum-length-of-pair-chain) |
 | [2139-detect-squares](https://github.com/Naveen1023/Coding-Problems/tree/master/2139-detect-squares) |
 ## Dynamic Programming
 |  |
@@ -32,6 +33,7 @@
 | [0131-palindrome-partitioning](https://github.com/Naveen1023/Coding-Problems/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/Naveen1023/Coding-Problems/tree/master/0152-maximum-product-subarray) |
 | [0583-delete-operation-for-two-strings](https://github.com/Naveen1023/Coding-Problems/tree/master/0583-delete-operation-for-two-strings) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Naveen1023/Coding-Problems/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Greedy
 |  |
@@ -39,6 +41,7 @@
 | [0045-jump-game-ii](https://github.com/Naveen1023/Coding-Problems/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Naveen1023/Coding-Problems/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Naveen1023/Coding-Problems/tree/master/0134-gas-station) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Naveen1023/Coding-Problems/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/Naveen1023/Coding-Problems/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
@@ -66,6 +69,7 @@
 | [0049-group-anagrams](https://github.com/Naveen1023/Coding-Problems/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Naveen1023/Coding-Problems/tree/master/0056-merge-intervals) |
 | [0506-relative-ranks](https://github.com/Naveen1023/Coding-Problems/tree/master/0506-relative-ranks) |
+| [0646-maximum-length-of-pair-chain](https://github.com/Naveen1023/Coding-Problems/tree/master/0646-maximum-length-of-pair-chain) |
 ## Math
 |  |
 | ------- |
